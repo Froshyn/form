@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на дтагностику автомобиля</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="content">
+            <div class="first">
+                <video class="first__video" src="carnew.mp4" muted autoplay loop ></video>
+            </div>
+    </div>
+    <div class="wrapper"> 
+        <div class="wrapper_form">
+        <form action="send.html" method="get" name="diagnostics">
+            <h1>Запись на диагностику автомобиля</h1>
+            <div class="input-grop">
+                <input type="name" required maxlength="25">
+                <label for="">Ваше Имя</label>
+            </div>
+            <div class="input-grop">
+                <input type="email" required>
+                <label for="">Ваш Email</label>
+            </div>
+            <div class="input-grop">
+                <input type="phone" required>
+                <label for="">Ваш телефон</label>
+            </div>
+            <button type="submit">Отправить</button>
+        </div>
+        </form>
+    </div>
+</body>
+</head>
